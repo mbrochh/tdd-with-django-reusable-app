@@ -60,7 +60,7 @@ def runtests(*test_args):
         "..",
         "..",
     )
-    sys.path.insert(0, parent)
+    #sys.path.insert(0, parent)
     failures = NoseCoverageTestRunner(verbosity=2, interactive=True).run_tests(test_args)
     sys.exit(failures)
 
