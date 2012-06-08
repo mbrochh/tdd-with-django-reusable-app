@@ -1,0 +1,3 @@
+recursive-include myapp2 *
+include README.rst DESCRIPTION
+exclude *.orig *.pyc
