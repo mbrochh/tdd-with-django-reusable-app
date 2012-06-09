@@ -1,3 +1,12 @@
+"""
+This ``setup.py`` has never been tested, but _should_ work.
+
+It's purpose is to upload this reusable app to the Python package index so
+that your potential users can easily install it via ``easy_install`` or ``pip`.
+However, you might never need to use this since you can just host your app
+on github or bitbucket and use ``pip`` to install it from there.
+
+"""
 import os
 from setuptools import setup, find_packages
 import myapp2

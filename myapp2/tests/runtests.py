@@ -1,4 +1,12 @@
 #!/usr/bin/env python
+"""
+This script is a trick to setup a fake Django environment, since this reusable
+app will be developed and tested outside any specifiv Django project.
+
+Via ``settings.configure`` you will be able to set all necessary settings
+for your app and run the tests as if you were calling ``./manage.py test``.
+
+"""
 import os
 import sys
 
@@ -55,12 +63,6 @@ class NoseCoverageTestRunner(CoverageRunner, NoseTestSuiteRunner):
 
 
 def runtests(*test_args):
-    parent = os.path.join(
-        os.path.dirname(os.path.abspath(__file__)),
-        "..",
-        "..",
-    )
-    #sys.path.insert(0, parent)
     failures = NoseCoverageTestRunner(verbosity=2, interactive=True).run_tests(test_args)
     sys.exit(failures)
 

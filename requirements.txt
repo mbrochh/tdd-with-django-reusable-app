@@ -1,3 +1,11 @@
+# The requirements.txt should contain everything that is needed in order to
+# get the tests of this app up and running.
+#
+# Potential contributors to your reusable app could then start contributing
+# by simply cloning the repository, running ``pip install -r requirements.txt``
+# and ``./myapp2/tests/runtests.sh``. Always keep the barrier to run the tests
+# as low as possible.
+
 django==1.4
 fabric
 factory_boy
