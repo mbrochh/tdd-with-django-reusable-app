@@ -8,4 +8,4 @@ class ExampleTestCase(TestCase):
 
     def test_view(self):
         resp = self.client.get(reverse('myapp2_home'))
-        self.assertEqual(resp.status_code, 200)
+        self.assertEqual(resp.status_code, 300)
