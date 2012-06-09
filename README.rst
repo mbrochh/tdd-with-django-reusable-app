@@ -7,7 +7,7 @@ with Django reusable apps.
 There is another repository that covers the code for Django projects:
 https://github.com/mbrochh/tdd-with-django-project
 
-This is an example project structure that should show how you can layout a
+This is an example repository structure that should show how you can layout a
 Django reusable app so that if fulfills the following criteria:
 
 * is ready for test driven development
