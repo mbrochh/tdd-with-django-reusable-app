@@ -4,6 +4,9 @@ Test Driven Development with Django Reusable Apps
 This is the code for my talk at PyCon APAC 2012 about test driven development
 with Django reusable apps.
 
+Video: https://www.youtube.com/watch?v=bAo9HcLt8NQ  
+Slides: https://speakerdeck.com/u/mbrochh/p/tdd-with-django  
+
 There is another repository that covers the code for Django projects:
 https://github.com/mbrochh/tdd-with-django-project
 
