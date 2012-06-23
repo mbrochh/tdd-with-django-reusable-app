@@ -1,0 +1,7 @@
+=== 0.2 (in development)===
+
+- Add your changes here as you add significant new features
+
+=== 0.1 ===
+
+Initial commit

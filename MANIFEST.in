@@ -1,3 +1,7 @@
-recursive-include myapp2 *
-include README.rst DESCRIPTION
+include AUTHORS
+include LICENSE
+include DESCRIPTION
+include CHANGELOG.txt
+include README.md
+graft myapp2
 exclude *.orig *.pyc
